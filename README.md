@@ -2,6 +2,11 @@
 
 
 Remote control car Bluetooth
+Equipe:
+Mateus Faustino Silva de Lucena (404455)
+Antônio Wellington Lima Cavalcante (371760)
+Mateus Wellington Almeida (371844)
+
 
 Como o nome sugere, o projeto se trata de um carrinho de controle remoto, controlado pelo smatphone.
 
