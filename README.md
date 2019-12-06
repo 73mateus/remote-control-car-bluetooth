@@ -4,16 +4,12 @@
 Remote control car Bluetooth
 Equipe:
 Mateus Faustino Silva de Lucena (404455)
-Antônio Wellington Lima Cavalcante (371760)
-Mateus Wellington Almeida (371844)
+Antônio Wellington Lima Cavalcante Júnior(371760)
+Mateus Pessoa Almeida(371844)
 
 
-Como o nome sugere, o projeto se trata de um carrinho de controle remoto, controlado pelo smatphone.
+CA proposta deste trabalho é criar um protótipo de uma cadeira de rodas motorizada que substitua o controle de joystick para uma interface no smartphone. Em termos simples, o usuário poderá, na prática, controlar a cadeira de rodas pelo celular.
 
-O carrinho terá duas rodas ativas e uma roda boba de apoio.
-A comunicação entre o smartphone e o carrinho acontecerá via Bluetooth.
-Para isso, será utilizado um módulo Bluetooth. Esse módulo recebrá os comandos do usuário e enviará para o Cortex-M0. Este por sua vez, processará a informação binária e enviará um código de 4 bits, através de suas potas de saídas para o driver dos motores (L298N) dos carrinhos.
+Para fazer este trabalho, complementando o conteúdo visto em sala de aula, foi realizada uma pesquisa em livros, artigos científicos e internet. Após a revisão bibliográfica, foi feita uma pesquisa de preços na internet. Após a compra do material e montagem do protótipo, foram realizados alguns testes no circuito para verificar os níveis de tensão e corrente do projeto.
 
-O L298N receberá 4 bits (2 para cada motor). O funcionamento dos motores dependerá do código enviado. Por exemplo se o código enviado ao driver for 0101, as duas rodas andarão para frente, e o carrinho segue adiante. Se o comando enviado for 0111, Uma das rodas irá travar e a outra rodará nomalmente, fazendo o carrinho dobrar para um dos lados.
-
-O principio por traz do L298N é a ponte H. Este tópico será explicado posteriormente.
+No Arquivo latex do trabalho, é possível encontrar os detalhes, como justificativa, procedimentos, códigos, etc..
